@@ -1,0 +1,19 @@
+What is the output of the following snippet code?
+
+public class Myclass
+{
+final static int x;
+
+static {
+x = 10;
+}
+public static void main(String[]
+args) {
+System.out.println(x);
+}
+}
+
+The output will be 10. final static ensures that the same value stays the same. 
+The value of x stays 10 and that is what is printed inside the main.
+
+
